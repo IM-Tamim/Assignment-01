@@ -156,20 +156,52 @@ nav .menu a {
   background-color: rgb(180, 186, 186);
   color: #469165;
 }
-.Notes-head h2{
-    height: 153px;
-    font-size: 48px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.Notes-head h2 {
+  height: 153px;
+  font-size: 48px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-.Notes-txt p{
-    margin-top: 16px;
-    font-size: 14px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    color: #627382;
+.Notes-head p {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.card-container {
+  display: flex;
+  margin: 44px 120px;
+  justify-content: space-around;
+  gap: 24px;
+}
+.card-container .card-holder {
+  border: 0.5px solid rgb(239, 237, 237);
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.card-container .card img {
+  margin: 16px;
+  padding: 24px;
+  background-color: #f95555;
+  border-radius: 100%;
+}
+.card-holder h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.card-holder p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #627382;
 }
