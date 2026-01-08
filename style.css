@@ -101,7 +101,7 @@ nav .menu a {
   gap: 6px;
   border-radius: 1000px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #469165;
   padding: 8px 12px;
 }
@@ -155,4 +155,21 @@ nav .menu a {
 .btn2:hover {
   background-color: rgb(180, 186, 186);
   color: #469165;
+}
+.Notes-head h2{
+    height: 153px;
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Notes-txt p{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #627382;
 }
