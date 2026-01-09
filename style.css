@@ -112,13 +112,14 @@ nav .menu a {
   gap: 2px;
 }
 .banner-heading {
-  margin: 0px 281px 16px;
+  margin-bottom: 16px;
   color: white;
 }
 .banner-heading h1 {
   font-size: 72px;
   font-weight: 700;
   line-height: 84px;
+  text-align: center;
 }
 .banner-heading span {
   color: #30b868;
@@ -127,7 +128,7 @@ nav .menu a {
   font-size: 18px;
   line-height: 24px;
   color: white;
-  margin: 0px 290px 32px 200px;
+  margin-bottom: 32px;
   line-height: 24px;
   font-weight: 400;
   text-align: center;
@@ -244,4 +245,32 @@ nav .menu a {
   color: #001931;
   font-size: 16px;
   font-weight: 500;
+}
+.challenge-container {
+  width: 1300px;
+  height: 355px;
+  background-color: #f7f6f2;
+  margin: 0 auto 120px;
+}
+.challenge-container h2 {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 80px;
+}
+.challenge-container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.challenge-container-button{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.challenge-container-button .btn{
+    box-shadow: 0px 10px 20px;
 }
